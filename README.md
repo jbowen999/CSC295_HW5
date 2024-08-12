@@ -1,0 +1,7 @@
+In my recent assignment, I encountered a few challenges that tested my patience, particularly with managing project files in GitHub. Initially, I mistakenly created a test project outside of the main project folder, which led to complications when I tried to push the project to GitHub. After moving the files around, the project started to behave unexpectedly, so I decided to create a new test project entirely. This resulted in an empty test project being pushed to GitHub, alongside the correct one named "ParaCheckerTests."
+
+For the actual implementation of the assignment, I focused on developing a method to check if the parentheses in a given string are balanced. My approach involved using a stack to handle the characters in the string. I chose a stack because it efficiently handles the Last-In-First-Out (LIFO) principle, which is ideal for matching opening and closing parentheses.
+
+The method works by iterating through each character in the string and pushing it onto the stack. As I pop each character off the stack, I check if a matching pair of parentheses ((), [], {}) is found. To ensure that the string is balanced, I used boolean variables that track whether each type of parenthesis is correctly matched. If all boolean values are true when the loop completes, the string is considered balanced.
+
+This approach not only ensures the correctness of the solution but also highlights the importance of methodical debugging and project management, especially when working with version control systems like GitHub.
