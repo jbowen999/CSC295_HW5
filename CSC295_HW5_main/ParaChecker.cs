@@ -9,6 +9,7 @@ namespace CSC295_HW5
 {
     public class ParaChecker
     {
+        
         public static Stack<char> createStack(string inputString)
         {
             Stack<char> stack = new Stack<char>();
@@ -18,8 +19,11 @@ namespace CSC295_HW5
             }
             return stack;
         }
-        public static bool IsBalanced(Stack<char> stack)
+
+        
+        public static bool IsBalanced(string line)
         {
+            Stack<char> stack = createStack(line);
             bool isCurly = true;
             bool isBracket = true;
             bool isPara = true;
